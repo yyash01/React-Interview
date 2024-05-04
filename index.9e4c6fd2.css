@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: auto;
+  text-rendering: optimizelegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  color: #fff;
+  background-color: #2f3640;
+  width: 300px;
+  height: 100vh;
+  padding: 20px;
+}
+
+.nodes li {
+  padding: 2px;
+  list-style: none;
+}
+
+.nodes li a {
+  color: #0097e6;
+  text-decoration: none;
+}
+
+.nodes li a:hover {
+  text-decoration: underline;
+}
+
+.node li {
+  align-items: center;
+  gap: 4px;
+  display: flex;
+}
+
+.node li .icon {
+  line-height: 0;
+}
+
+.node-content .nodes {
+  padding-left: 10px;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
